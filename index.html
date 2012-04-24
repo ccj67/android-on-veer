@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Android-on-veer : Android, Veer" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Android-on-veer</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/xndcn/android-on-veer">Fork Me on GitHub</a>
+
+          <h1 id="project_title">Android-on-veer</h1>
+          <h2 id="project_tagline">Android, Veer</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/xndcn/android-on-veer/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/xndcn/android-on-veer/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to Android on Veer project.</h3>
+
+<p><strong>暂停，由于部分机器刷机后卡死在HP界面，暂时停止</strong></p>
+
+<p>这是Android-on-Veer项目的首页。</p>
+
+<h3>写在前面</h3>
+
+<p>作为一名伪Palm友，亲眼见证了这些年来移动终端的腥风血雨之后，我再也不相信爱情了...</p>
+
+<p>对于在Veer上移植Android这事，有赞成也有反对。</p>
+
+<p>反对者无非是WebOS死忠，对WebOS永不言弃...</p>
+
+<p>其实硬件和软件本来就应该是分离的，Android-on-Veer无非是提供了一种可能性。</p>
+
+<p>多一种选择，何乐而不为呢？</p>
+
+<p>等到WebOS彻底开源那天，说不定也有WebOS-on-XXX之类蜂拥而出呢？</p>
+
+<h3>安装准备</h3>
+
+<ol>
+<li>下载[android-rootfs.tar]</li>
+<li>下载[boot.tar]</li>
+<li>下载[uImage.install]</li>
+</ol><p>注意，Veer的U盘需要有1GB以上空闲空间。</p>
+
+<h3>安装方法</h3>
+
+<p><strong>刷机有风险！仅限Veer用户测试用！</strong></p>
+
+<p><strong>stay用户请暂时勿刷！！！</strong></p>
+
+<ol>
+<li>打开Veer，连上USB进入U盘模式，将android-rootfs.tar, boot.tar放入U盘根目录下</li>
+<li>重启Veer，按住音量上键，进入Recovery模式（出现USB箭头）</li>
+<li>
+<p>进入uImage.install所在目录，在PC端输入</p>
+
+<p>novacom boot mem:// &lt; uImage.install</p>
+
+<p>或者参照<a href="http://www.mcplive.cn/index.php/article/index/id/10759/page/2">这里的做法</a>，把uImage.install复制到novacom的安装目录下再执行novacom boot mem:// &lt; uImage.install</p>
+</li>
+<li><p>屏幕将输出安装信息，待全部完成后自动重启。</p></li>
+<li><p>可以看见moboot多启动界面了。音量键选择，电源键确认。</p></li>
+</ol><p>第一次进入Android模式可能比较慢...</p>
+
+<h3>存在问题</h3>
+
+<p>目前只有触摸屏，键盘，WiFi可以工作，其他驱动有待开发。</p>
+
+<p>屏幕颜色有点问题。</p>
+
+<p>关闭屏幕触摸屏还在工作...</p>
+
+<p>等等...</p>
+
+<p>如果你对这个项目感兴趣，欢迎<a href="https://me.alipay.com/xndcn">捐助</a>（请不要超过1元...）不胜感激！</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Android-on-veer maintained by <a href="https://github.com/xndcn">xndcn</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-31144144-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
